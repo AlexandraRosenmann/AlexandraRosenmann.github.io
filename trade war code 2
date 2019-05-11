@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-<body>
-<body style="background-image:url(https://github.com/AlexandraRosenmann/AlexandraRosenmann.github.io/blob/master/IMG_8157.jpg)">
-</head>
+<body background="IMG_8157.jpg.jpg">
+<h1>Hello world!</h1>
+<p><a href="https://github.com/AlexandraRosenmann/AlexandraRosenmann.github.io/blob/master/IMG_8157.jpg"</a></p>
+</body>
 
 <h2>Trump's Trade War </h2>
 <p>a local/global view</p>
