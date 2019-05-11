@@ -1,15 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-#example1 {
-  background: <img src="smiley.gif" alt="Smiley face" width="42" height="42">
- left top repeat;
-  padding: 15px;
-
-
-}
-</style>
 </head>
 <body>
 body {
