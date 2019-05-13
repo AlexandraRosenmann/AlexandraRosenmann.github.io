@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-body {
-  background-image: url("https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/ba44941346ea455befca84c42e630ba157b73609/IMG_1680.jpg");
+html { 
+  background: url(AlexandraRosenmann.github.io/ba44941346ea455befca84c42e630ba157b73609/IMG_1680.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-</style>
-</head>
-</body>
-</html>
