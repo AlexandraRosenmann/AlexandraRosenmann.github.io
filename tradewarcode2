@@ -2,8 +2,12 @@
 <html>
     <head>
     <title>My Page</title>
-    ![alt text](https://github.com/AlexandraRosenmann/AlexandraRosenmann.github.io/blob/master/IMG_1980.jpg?raw=true "Title")
-    <body>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_8157.jpg" width="350" title="hover text">
+  <img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_8157.jpg" width="350" alt="accessibility text">
+</p>
+
+
         <h2>Trump's Trade War </h2>
         <p>a local/global view</p>
         <a href="https://op-talk.blogs.nytimes.com/2014/07/25/why-we-live-in-unhappy-places/" target="_blank">NY vs. Everywhere</p>
