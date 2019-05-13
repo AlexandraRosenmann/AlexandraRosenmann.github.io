@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <title>My Page</title>
+    <link rel="stylesheet" type="text/css" href="css/AlexandraRosenmann.github.io/tradeimages.css">
+</head>
     <body>
         <h2>Trump's Trade War </h2>
         <p>a local/global view</p>
