@@ -1,7 +1,5 @@
 html { 
-  background: url(https://thenypost.files.wordpress.com/2019/05/190511-miami-skyline.jpg?quality=90&strip=all&w=618&h=410&crop=1) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+background-image:url('IMG_8157/bg.jpg');
+background-repeat:no-repeat;
+background-position:center center;
 }
