@@ -12,6 +12,7 @@
 <img id="myImage" src="https://www.instagram.com/p/BgSSqjpjLN2/" style="width:100px">
 
 <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">When?</button>
+<img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_1980.jpg" style="width:120%; height:auto; margin:0 auto;"  alt text="something to describe this image" >
 
 </body>
 </html>
