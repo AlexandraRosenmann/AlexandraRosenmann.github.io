@@ -1,7 +1,6 @@
 </body>
 
-<img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_8157.jpg" style="width:100%; height:auto; margin:0 auto;"  alt text="something to describe this image" ></img>
-tton onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+<img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_8157.jpg" style="width:120%; height:auto; margin:0 auto;"  alt text="something to describe this image" >
 <h2>Trump's Trade War </h2>
 <p>Why so sad? They said it best</p>
 <a href="https://op-talk.blogs.nytimes.com/2014/07/25/why-we-live-in-unhappy-places/" target="_blank">NY vs. Everywhere</p>
