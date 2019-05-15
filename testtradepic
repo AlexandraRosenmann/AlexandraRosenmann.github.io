@@ -2,12 +2,21 @@
 <html>
 <head>
 <style>
-img { 
-  width: 100%; 
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 </style>
 </head>
 <body>
+
+<h1>Image Transparency</h1>
+<p>The opacity property is often used together with the :hover selector to change the opacity on mouse-over:</p>
 
 <img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_8157.jpg" style="width:42px;height:42px;border:0;">" title="hover text">
 
