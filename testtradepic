@@ -10,7 +10,11 @@ img {
 <body>
 
 <img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_8157.jpg" width="700" title="hover text">
-<img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_1980.jpg" width="700" alt="accessibility text">
+
+
+
+
+<img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_1980.jpg" style="width:42px;height:42px;border:0;"> alt="accessibility text">
 
 </body>
 </html>
