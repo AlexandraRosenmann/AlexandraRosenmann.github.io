@@ -2,7 +2,8 @@
 <html>
 <head>
 <style>
-img {
+<img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_8157.jpg" style="width:42px;height:42px;border:0;">" title="hover text">
+ {
   opacity: 0.5;
   filter: alpha(opacity=50); /* For IE8 and earlier */
 }
