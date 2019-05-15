@@ -1,4 +1,18 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_8157.jpg" width="350" title="hover text">
-  <img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_8157.jpg" width="350" alt="accessibility text">
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img { 
+  width: 100%; 
+}
+</style>
+</head>
+<body>
+
+<img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_8157.jpg" width="350" title="hover text">
+<img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_1980.jpg" width="350" alt="accessibility text">
+</body>
+</html>
+
+
 </p>
