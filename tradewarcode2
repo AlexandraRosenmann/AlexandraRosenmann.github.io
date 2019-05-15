@@ -3,8 +3,6 @@
 <html>
 <head>
 <body>
-<h1 style="background-color:DodgerBlue;">Hello World</h1>
-<p style="background-color:Tomato;">
 <img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_8157.jpg" style="width:75%; height:auto; margin:0 auto;"  alt text="something to describe this image" ></img>,
 "https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_1980.jpg" style="width:75%; height:auto; margin:0 auto;"  alt text="something to describe this image" ></img>
 </head>
