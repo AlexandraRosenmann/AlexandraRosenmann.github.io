@@ -1,16 +1,56 @@
-</head>
-#example1 {
-  background-image: url(https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/ba44941346ea455befca84c42e630ba157b73609/IMG_1680.jpg), url(https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/ba44941346ea455befca84c42e630ba157b73609/IMG_1680.jpg);
-  background-position: right bottom, left top;
-  background-repeat: no-repeat, repeat;
-  padding: 50px;
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+  width: 50%;
 }
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+</head>
 <body>
 
-<img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_8157.jpg" width="500" title="hover text">
-<img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_1980.jpg" width="500" alt="accessibility text">
-<img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_8157.jpg" width="700" title="hover text">
-<img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_1980.jpg" width="700" alt="accessibility text">
+<h2>Fade in Overlay</h2>
+
+<div class="container">
+  <img src="img_avatar.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div>
 
 </body>
 </html>
