@@ -1,4 +1,10 @@
 </head>
+#example1 {
+  background-image: url(https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/ba44941346ea455befca84c42e630ba157b73609/IMG_1680.jpg), url(https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/ba44941346ea455befca84c42e630ba157b73609/IMG_1680.jpg);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 50px;
+}
 <body>
 
 <img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_8157.jpg" width="500" title="hover text">
