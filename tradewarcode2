@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<body>
+<style>
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 <img src="https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_8157.jpg" style="width:75%; height:auto; margin:0 auto;"  alt text="something to describe this image" ></img>,
 "https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_1980.jpg" style="width:75%; height:auto; margin:0 auto;"  alt text="something to describe this image" ></img>
 </head>
-</body>
 </html>
