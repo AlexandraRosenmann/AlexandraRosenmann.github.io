@@ -1,65 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style> 
-#example1 {
-  background-image: url(https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/ba44941346ea455befca84c42e630ba157b73609/IMG_1680.jpg), url(https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/ba44941346ea455befca84c42e630ba157b73609/IMG_1680.jpg);
-  background-position: right bottom, left top;
-  background-repeat: no-repeat, repeat;
-  padding: 50px;
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 </style>
 </head>
 <body>
-  <div id="example1">
-  <h1>Lorem Ipsum Dolor</h1>
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+<h2>Fade in Overlay</h2>
+
+<div class="container">
+  <img src="img_avatar.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
 </div>
-html { 
-background-image:url('https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_8157.jpg');
-background-repeat:no-repeat;
-background-position:center center;
-}
-background-image:url('https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_1980.jpg');
-background-repeat:no-repeat;
-background-position:center center;
-<!DOCTYPE html>
-<html>
-<head>
-<style> 
-#myDIV {
-  width: 300px;
-  height: 200px;
-  background: red;
-  -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
-  animation: mymove 5s infinite;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes mymove {
-  from {background-color: red;}
-  to {background-color: blue;}
-}
-
-/* Standard syntax */
-@keyframes mymove {
-  from {background-color: red;}
-  to {background-color: blue;}
-}
-</style>
-</head>
-<body>
-<h1>Animation of background-color</h1>
-
-<p>Gradually change the background-color from red to blue:<p>
-
-<div id="myDIV"></div>
-
-<p><strong>Note:</strong> CSS Animations do not work in Internet Explorer 9 and earlier versions.</p>
 
 </body>
 </html>
-
-}
-
