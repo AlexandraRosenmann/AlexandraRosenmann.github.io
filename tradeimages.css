@@ -1,3 +1,20 @@
+
+</body>
+<style> 
+#example1 {
+  background-image: url(https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/ba44941346ea455befca84c42e630ba157b73609/IMG_1680.jpg), url(https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/ba44941346ea455befca84c42e630ba157b73609/IMG_1680.jpg);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 50px;
+}
+</style>
+</head>
+<body>
+  <div id="example1">
+  <h1>Lorem Ipsum Dolor</h1>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
 html { 
 background-image:url('https://raw.githubusercontent.com/AlexandraRosenmann/AlexandraRosenmann.github.io/master/IMG_8157.jpg');
 background-repeat:no-repeat;
