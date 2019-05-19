@@ -2,6 +2,27 @@
 <html>
 <head>
 <style>
+<!DOCTYPE html> 
+<html> 
+<head> 
+<style> 
+body
+ 
+{
+ 
+  
+background-color
+:yellow; 
+}
+ 
+</style> 
+</head> 
+<body> 
+
+<h1>My Home Page</h1> 
+
+</body> 
+</html>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="https://github.com/AlexandraRosenmann/AlexandraRosenmann.github.io/blob/master/tradeimages.css" href="https://github.com/AlexandraRosenmann/AlexandraRosenmann.github.io/blob/master/tradeimages.css">
 </head>
